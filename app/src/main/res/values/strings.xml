@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Screen Off</string>
+    <string name="toast_crash_report">Errore in Screen OFF</string>
+</resources>
