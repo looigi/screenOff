@@ -13,6 +13,7 @@ public class Spegne extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         if (VariabiliGlobali.getInstance().getDevicePolicyManager() == null) {
+            VariabiliGlobali.getInstance().setGiaEntrato(false);
             VariabiliGlobali.getInstance().setDevicePolicyManager((DevicePolicyManager) getSystemService(DEVICE_POLICY_SERVICE));
             VariabiliGlobali.getInstance().setCompName(new ComponentName(this, MyAdmin.class));
         }
